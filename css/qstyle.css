@@ -1,0 +1,402 @@
+.who
+{
+    height: 300px;
+    margin-top: 150px;
+}
+.who p
+{
+ font-size: 22px; 
+    color: darkgray;
+}
+.who span:after
+{   color: #00c3da !important;
+    content: "";
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anim
+{
+     5%{content:"w";}
+     10%{content:"we";}
+     15%{content:"web";}
+     20%{content:"webs";}
+     25%{content:"websi";}
+     30%{content:"websit";}
+     35%{content:"website";}
+     40%{content:"websites";}
+     45%{content:"";}
+     50%{content:"s";}
+     55%{content:"so";}
+     60%{content:"sof";}
+     65%{content:"soft";}
+     70%{content:"softw";}
+     75%{content:"softwa";}
+     80%{content:"softwar";}
+     82%{content:"software";}
+     84%{content:"";}
+     88%{content:"a";}
+     90%{content:"ap";}
+     95%{content:"app";}
+     100%{content:"apps";}    
+}
+.x
+{
+    background-color:  #fff;
+    padding: 10px;
+    border: solid 1px #787878;
+    margin-top: 20px;
+}
+.x:hover
+{
+  background-color: #333;
+    color: #fff;
+    border:none;
+}
+.carousel-caption h1
+{
+    opacity: 0;
+}
+.carousel-caption h4
+{
+    opacity: 0;
+}
+.carousel-caption button
+{
+    opacity: 0;
+}
+
+.carousel-caption h1
+{
+ bottom: 260px;
+ animation-name: animh1;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ animation-delay: .05s;
+ animation-fill-mode: backwards;
+}
+@keyframes animh1
+{
+    0%{opacity: 0}
+    100%{opacity: 1}
+
+}
+.carousel-caption h4
+{
+ bottom: 260px;
+ animation-name: animh4;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ animation-delay: 1s;
+ animation-fill-mode: backwards;
+
+}
+@keyframes animh4
+{
+    0%{opacity: 0}
+    100%{opacity: 1}
+
+}
+.carousel-caption button
+{
+ bottom: 260px;
+ animation-name: animbutton;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ animation-delay: 1.5s; 
+ animation-fill-mode: backwards;
+
+}
+@keyframes animbutton
+{
+    0%{opacity: 0}
+    100%{opacity: 1}
+
+}
+.nav-pills .nav-link1.active , .nav-link1
+{
+    background-color: #fff;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+.nav-pills .nav-link1.active,.nav-link1
+{
+    border-bottom: solid 1px black;
+}
+.fade
+{
+   color : #6c757d;
+}
+.creative
+{
+    padding-top: 100px;
+    margin-bottom: 80px;
+    
+}
+.sora
+{
+    position: relative;
+    overflow: hidden;
+}
+.creat i
+{
+    color: #fff;
+    float: left;
+    margin: 10px;
+}
+.creative .creat
+{
+    background-color: rgba(0, 195, 218, 0.9);
+    width: 100%;
+    height: 100%;
+    top:100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+.sora:hover .creat
+{
+    top:0%;
+}
+.team
+{
+    background-image: url(../img/bg-image-30.jpg);
+    background-attachment: fixed;
+    width: 50% 50%;
+    color: #fff;
+}
+.team1
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    padding-top: 50px;
+}
+.team1 li
+{
+ margin-bottom: 10px;  
+}
+.nav-pills .nav-link2.active , .nav-link2
+{
+    background-color: #fff;
+    color: black;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+.nav-pills .nav-link2.active
+{
+    border:solid 1px #00c3da;
+    border-radius: 50%;
+    color: #00c3da;
+}
+.our
+{
+    padding-top: 50px;
+}
+.our2
+{
+    position: relative;
+    overflow: hidden;  
+  
+}
+.our2 img
+{
+    transition: all 0.5s;  
+}
+.our2:hover img
+{
+    transform: scale(1.1,1.1);
+}
+.our1
+{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    padding: 30px 80px;
+    color: black;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.our2:hover .our1
+{
+    opacity: 1;
+}
+.pricing
+{   margin-top: 50px;
+    padding-top: 100px;
+    background-color: #f7f7f7;
+    padding-bottom:  50px;
+}
+.pricing li
+{
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: #787878;
+}
+.card h1
+{
+   padding-left: 30px;
+    border-bottom: solid 1px #787878;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.card span
+{
+    color:#00c3da;
+}
+.card h6
+{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.like
+{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.like i
+{
+    font-size: 30px;
+    color:  #00c3da;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.like h1
+{
+    padding-bottom: 20px;
+}
+.slider
+{
+  background-color: #f7f7f7;
+   padding-top: 50px;
+}
+
+.carousel-item
+{
+    background-color: rgba(0,0,0,0);
+    height:100%;
+}
+
+.sli1
+{
+    background-color: #fff;
+    color: #787878;
+   padding: 40px;
+    border-radius: 20px;
+   
+   
+}
+.sli >img
+{
+   width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+   
+}
+.some img
+{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.get
+{
+    padding-top: 50px;
+    border-top: solid 1px #ccc;
+    margin-top: 40px;
+}
+.get1 input
+{
+    display: block;
+    margin-bottom: 20px;
+    border: solid 1px #ccc;
+    width: 100%;
+    height: 50px;
+}
+.get1 .in
+{
+    height: 130px;
+}
+.get1 label
+{
+    color: black;
+    margin-top: 20px;
+}
+.footer
+{
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    margin-top: 40px;
+    
+}
+.footer img
+{
+    width: 100px;
+    height: 50px;
+}
+.footer li
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer h6
+{
+    margin-left: 30px;
+}
+.footer a,p
+{
+      color: gray;
+}
+a:hover{
+    color:  #00c3da;
+}
+
+.footer button
+{
+    border: solid 1px gray;
+    color: gray;
+    background-color: rgba(0,0,0,0);
+    margin: 3px;
+    font-size: 13px;
+}
+.foot
+{
+    border-top: solid 1px #ccc;
+    margin-top: 50px;
+}
+.foot i
+{ 
+    margin-top: 70px;
+    margin-bottom:  70px;
+  color: gray;
+    margin-right: 10px;
+    padding-right: 10px;
+    transition: all 0.5s;
+}
+.foot i:hover
+{
+    color: #00c3da;
+}
+.foot .go:hover
+{
+  color: red;
+}
+.foot .be:hover
+{
+    color: black;
+}
+.foot p
+{
+    float: right;
+    margin-top: 70px;
+    margin-bottom:  70px;
+}
